@@ -31,9 +31,28 @@
           <input type="email" name="email" id="email" class="benjamin" placeholder="Enter your Email" required>
         </div>
 
+        <div class="divA">
+          <label id="number-label" for="number" class="label">Age<span class="optional">(optional)</span></label>
+          <input type="number" name="age" id="number" min="10" max="99" class="benjamin" placeholder="Age" required>
+        </div>
+
+        <!-- current role section -->
+        <div class="divA">
+          <p>Which option best describes your current role?</p>
+          <select id="dropdown" name="role" class="benjamin" required>
+            <!-- <option disabled="" selected="" value="">Select current teacher</option> -->
+            <option disabled selected value>Select current role</option>
+            <option value="Student">Student</option>
+            <option value="Full Time Job">Full Time Job</option>
+            <option value="Full Time Learner">Full Time Learner</option>
+            <option value="Prefer not to say">Prefer not to say</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+
 
   </section>
-  
+
 </body>
 
 </html>
