@@ -7,7 +7,6 @@
 body {
   background-image: url(./images/a11d44942fbfcfbea6c2995c59eecc40.jpeg);
   background-size: cover;
-  background-repeat: no-repeat;
   background-position: center;
 }
 
@@ -16,9 +15,6 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
- 
-
-
 }
 
 .div1 {
@@ -40,7 +36,6 @@ section {
 
 span {
   color: white;
-  /* font-size: 1.3rem; */
   font-size: larger;
   font-weight: 100;
   font-family: Arial, Helvetica, sans-serif;
@@ -50,17 +45,10 @@ span {
 
 
 .form {
-  height: 150vh;
-  width: 60%;
+  height: 190vh;
+  width: 50%;
   background-color: red;
   border-radius: 5px;
-}
-
-.label{
-  color: white;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 1rem;
-
 }
 
 .divA {
@@ -68,7 +56,23 @@ span {
   padding: 0.25rem;
 }
 
-.input {
+.divA label{
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: white;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.divA p{
+color: white;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.benjamin {
   display: block;
   width: 100%;
   height: 2rem;
@@ -79,21 +83,13 @@ span {
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
   margin-top: 10px;
-  
-  /* transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; */
-}
+  }
 
 .optional{
   color: blue;
   font-size: 1rem;
   padding-left: 5px;
 }
-
-/* .input:focus {
-  border-color: #80bdff;
-  outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
-} */
 
 .radioInput,
 .akande {
@@ -106,17 +102,23 @@ span {
 .textarea {
   min-height: 120px;
   width: 100%;
-  padding: 0.625rem;
-  /* resize: vertical; */
+  padding: 0.6rem;
 }
 
 .btn {
   display: block;
   width: 100%;
   padding: 0.75rem;
-  background-color: rgb(93, 223, 93);
+  background-color: rgb(14, 118, 14);
   color: white;
+  font-size: 1rem;
   border-radius: 2px;
   cursor: pointer;
   border: none;
+}
+
+.btn:hover{
+  background-color: white;
+  color:black;
+  font-size: 1rem;
 }
