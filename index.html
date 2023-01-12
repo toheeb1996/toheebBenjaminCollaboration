@@ -40,7 +40,6 @@
         <div class="divA">
           <p>Which option best describes your current role?</p>
           <select id="dropdown" name="role" class="benjamin" required>
-            <!-- <option disabled="" selected="" value="">Select current teacher</option> -->
             <option disabled selected value>Select current role</option>
             <option value="Student">Student</option>
             <option value="Full Time Job">Full Time Job</option>
@@ -50,6 +49,97 @@
           </select>
         </div>
 
+        <!-- Recommendation section -->
+        <div class="divA">
+          <p>Would you recommend freeCodeCamp to a friend?</p>
+          <label>
+            <input name="user-recommend" value="definitely" type="radio" class="radioInput" checked />Definitely
+          </label>
+
+          <label>
+            <input name="user-recommend" value="maybe" type="radio" class="radioInput" />Maybe
+          </label>
+
+          <label>
+            <input name="user-recommend" value="not-sure" type="radio" class="radioInput" />Not sure
+          </label>
+        </div>
+
+        <div class="divA">
+          <p>What is your favorite feature of freeCodeCamp?</p>
+          <select id="most-like" name="mostLike" class="benjamin" required>
+            <option disabled selected value>Select an option</option>
+            <option value="challenges">Challenges</option>
+            <option value="projects">Projects</option>
+            <option value="community">Community</option>
+            <option value="openSource">Open Source</option>
+          </select>
+        </div>
+
+        <!-- improvement session -->
+        <div class="divA">
+          <p>
+            What would you like to see improved?
+            <span class="optional">(Check all that apply)</span>
+          </p>
+
+          <label>
+            <input name="prefer" value="front-end-projects" type="checkbox" class="akande" />Front-end Projects
+          </label>
+
+          <label>
+            <input name="prefer" value="back-end-projects" type="checkbox" class="akande" />Back-end Projects
+          </label>
+
+          <label>
+            <input name="prefer" value="data-visualization" type="checkbox" class="akande" />Data Visualization
+          </label>
+
+          <label>
+            <input name="prefer" value="challenges" type="checkbox" class="akande" />Challenges
+          </label>
+
+          <label>
+            <input name="prefer" value="open-source-community" type="checkbox" class="akande" />Open Source Community
+          </label>
+
+          <label>
+            <input name="prefer" value="gitter-help-rooms" type="checkbox" class="akande" />Gitter help rooms
+          </label>
+
+          <label>
+            <input name="prefer" value="videos" type="checkbox" class="akande" />Videos
+          </label>
+
+          <label>
+            <input name="prefer" value="city-meetups" type="checkbox" class="akande" />City Meetups
+          </label>
+
+          <label>
+            <input name="prefer" value="wiki" type="checkbox" class="akande" />Wiki
+          </label>
+
+          <label>
+            <input name="prefer" value="forum" type="checkbox" class="akande" />Forum
+          </label>
+
+          <label>
+            <input name="prefer" value="additional-courses" type="checkbox" class="akande" />Additional Courses
+          </label>
+        </div>
+
+        <!-- suggestion section -->
+        <div class="divA">
+          <p>Any comments or suggestions?</p>
+          <textarea id="message" class="textarea" name="message" placeholder="Enter your comment here..."></textarea>
+        </div>
+
+        <div class="divA">
+          <button type="submit" id="submit" class="btn">
+            Submit
+          </button>
+
+      </form>
 
   </section>
 

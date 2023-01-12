@@ -88,3 +88,35 @@ span {
   font-size: 1rem;
   padding-left: 5px;
 }
+
+/* .input:focus {
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+} */
+
+.radioInput,
+.akande {
+  display: inline-block;
+  margin-right: 1rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+}
+
+.textarea {
+  min-height: 120px;
+  width: 100%;
+  padding: 0.625rem;
+  /* resize: vertical; */
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  background-color: rgb(93, 223, 93);
+  color: white;
+  border-radius: 2px;
+  cursor: pointer;
+  border: none;
+}
